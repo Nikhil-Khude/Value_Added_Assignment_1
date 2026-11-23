@@ -79,7 +79,7 @@ button {
     height: auto;
 }
 .features {
-    background-color: #f8f7ff;
+    background-color: white;
     padding: 50px 4%;
 }
 
@@ -87,4 +87,39 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 25px;
+}
+.card {
+    background-color: white;
+    border: 1px solid #e5e5f0;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.card h3 {
+    font-size: 20px;
+    color:black;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 16px;
+    color: grey;
+    line-height: 1.5;
+}
+.features {
+    background-color: lavender;
+    padding: 50px 4%;
+    margin-top: 30px;
+}
+.navbar a:first-of-type {
+    color: purple;
+    font-weight: bold;
+    border-bottom: 4px solid purplre;
+    padding-bottom: 25px;
 }
